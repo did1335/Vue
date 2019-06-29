@@ -1,0 +1,19 @@
+﻿<body>
+  <!--Vue 掛載點-->
+  <div id='app'>
+      {{message}}
+  </div>
+  
+  <!--Vue CDN-->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+  <!--Vue Code-->
+  <script>
+      new Vue({
+        el:'#app',
+        data:{
+            message:'Hello World!'
+        }
+       })
+  </script>
+</body>
